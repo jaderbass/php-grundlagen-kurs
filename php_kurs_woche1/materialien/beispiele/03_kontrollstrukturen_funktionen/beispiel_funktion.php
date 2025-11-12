@@ -68,21 +68,7 @@ $person = ['Müller', 'Peter', 39];
 <body>
   <header><h1>Funktionen</h1></header>
   <main class="container">
-    <?php hallo('Marcus') ?>
-    <?php hallo('Rio') ?>
-
-    <?php 
-    
-   $sum = summe(37, 5);?>
-
-   <p><?= ausgabe('Marcus', 37, 'männlich', 'Motorrad', 4, false); ?></p>
-
-   <p><?= zeigeZutaten('Butter', 'Mehl', 'Eier', 'Safran', 'Schmalz'); ?></p>
-
-<p><?= personInfo(...$person); ?></p>
-
-   <p>Das ultimative Ergebnis ist: <?= $sum; ?>.</p>
-    <p>Netto: 100.00 € → Brutto:  <?= brutto(100); ?> €</p>
+    <p>Netto: 100.00 € → Brutto: €</p>
   </main>
 </body>
 </html>
