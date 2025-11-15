@@ -56,8 +56,8 @@ include_once 'artikel.inc.php';
 
         <tr>
           <td colspan="4">
-            <button style="margin-bottom:1rem;" type="submit">In den Warenkorb</button>
-            <button type="reset">Abbrechen</button>
+            <button style="margin-bottom:1rem;back" type="submit">In den Warenkorb</button>
+            <button  style="margin-bottom:1rem;background-color:red;color:white;border:none;border-radius:10px;cursor:pointer;"type="reset">Abbrechen</button>
           </td>
         </tr>
 
