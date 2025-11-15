@@ -1,5 +1,9 @@
 <?php
 declare(strict_types=1);
+error_reporting(E_ALL);
+ini_set('display_errors',true);
+session_start();
+include_once 'artikel.inc.php';
 /**
  * Aufgabe:
  * 1) Schreibe eine Funktion brutto($netto, $mwst=0.19).
